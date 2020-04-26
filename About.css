@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(IMG/BgAbout.jpg) no-repeat;
+    background-size: cover;
+}
+.box{
+    width: 450px;
+    height: 520px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+}
+.box-img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+*{
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Itim', cursive;
+
+}
+.box h2{
+    font-style: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    color: #000;
+}
+.box h4{
+    font-style: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    color: #000;
+}
+.box p{
+    text-align: justify;
+    color: #000;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-style: 60px;
+}
+.navbar-nav a{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+}
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active > nav-link, .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+    color: #ffff;
+}.navbar-light .navbar-nav .nav-link{
+    color: #ffff;
+}
+.navbar-nav{
+    text-align: center;
+}
+.navbar-link{
+    padding: .2rem 1rem;
+
+}
+.navbar-light .navbar-nav .navbar-link:focus, .navbar-light .navbar-nav .navbar-link:hover{ 
+    color: #ffff !important;
+
+}
+.w-100{
+    height: 100vh;
+}
+@media only screen  and (max-width: 767px){
+    .navbar-nav.ml-auto{
+        background: rgb(253, 248, 248);
+    }
+    .navbar-toggler{
+        padding: 1px 5px;
+        font-style: 18px;
+        line-height: 0.3;
+        background: rgb(0, 0, 0);
+    }
+}

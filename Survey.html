@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="Surveysty.css">
+    <title>Survey</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="Index.html">COVID-19</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="another-covid19.html">Countrys</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Survey.html">Survey</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pattern
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="area-chart.html">Chart</a>
+                          <a class="dropdown-item" href="line-chart.html">Line-Chart</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="pie-chart.html">Pie-Chart</a>
+                        </div>
+                      </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container logo1">
+        <div class="logo">
+            <img src="IMG/logosurvey.png" class="imglogo" alt="">
+            <div class="h5">แบบสอบถาม สำหรับคัดกรองโรคโคโรน่าไวรัส (COVID-19)</div>
+            <div class="h5">(SCREENING QUESTIONNAIRE COVID-19)</div>
+            <P>ขอความร่วมมือท่านให้กรอกข้อมูลที่ถูกต้องตามความเป็นจริง
+                เพื่อประโยชน์ในการรักษาและป้องกันการแพร่กระจายเชื้อ</P>
+
+        </div>
+    </div>
+    <form class="was-validated">
+    <div class="container">
+        <div class="box">
+            <div class="sur">
+               
+                    <div class="row r1">
+                        <div class="col b1">
+                            
+                            
+                            <label for="validationTooltip03"></label>
+                            <input type="text" class="form-control namet" placeholder="ชื่อ/Name" id="validationTooltip01" required>
+                            <div class="invalid-tooltip">
+                                โปรดใส่ชื่อ.
+                              </div>
+                         
+                            </div>
+                        <div class="col b1">
+                            <label for="validationTooltip03"></label>
+                            <input type="tel" class="form-control namet" placeholder="โทร/Tel" id="validationTooltip02" required>
+                            <div class="invalid-tooltip">
+                                โปรดใส่เบอโทร.
+                              </div>
+                        </div>
+
+                    
+                    </div>
+                    <div class="row r2">
+                    
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1"> ผู้ถือหุ้นหรือรับมอบฉันทะ/shareholder
+                                or
+                                proxy</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">ผู้ติดตาม/Escort</label>
+                          </div>
+                       
+                    </div>
+           
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box2">
+
+     <p class="text11">ในปัจจุบันมีอาการดังต่อไปนี้หรือไม่โปรดระบุ<br>
+                Do you currently have any of the follwing symptoms? Tick all that apply.</p>
+
+           
+                <div class="row r3">
+                1. ไอ/เจ็บคอ (Cough/Sore Throat)
+
+                <div class="yesno1">
+
+
+                    <div class="form-check form-check-inline ">
+                        <div class="container-textyn1 ">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="customControlValidation1" value="option3" required>
+                                <label class="form-check-label" for="customControlValidation1">ใช่/Yes</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="customControlValidation1" value="option4" required >
+                                <label class="form-check-label" for="customControlValidation2">ไม่ใช่/No</label>
+                              </div>
+                           
+        
+                    </div>
+                        
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="row r3">
+                2. มีน้ำมูก (Runny Nose)<div class="form-check form-check-inline">
+                    <div class="container-textyn">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="customControlValidation2" value="option5" required>
+                            <label class="form-check-label" for="customControlValidation3">ใช่/Yes</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="customControlValidation2" value="option6" required >
+                            <label class="form-check-label" for="customControlValidation4">ไม่ใช่/No</label>
+                          </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="row r3">
+                3. หายใจเหนื่อยหายใจลำบาก (Shortness of Breath/Difficulty breathing)<div
+                    class="form-check form-check-inline">
+
+                    <div class="container-textyn">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="customControlValidation3" value="option7" required>
+                            <label class="form-check-label" for="customControlValidation2">ใช่/Yes</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="customControlValidation3" value="option8" required >
+                            <label class="form-check-label" for="customControlValidation3">ไม่ใช่/No</label>
+                          </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="row r3">
+                <p class="text11">
+                   4. คุณมีอาการใดๆที่มีอยู่ซึ่งจะทำให้ระบบภูมิคุ้มกันของคุณอ่อนแอลง<br>(Do you have any exsting condition
+                which weakens your immune system?
+                )  
+                </p>
+               <div class="form-check form-check-inline">
+
+                <div class="container-textyn">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions5" id="customControlValidation2" value="option9" required>
+                        <label class="form-check-label" for="customControlValidation2">ใช่/Yes</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions5" id="customControlValidation2" value="option10" required >
+                        <label class="form-check-label" for="customControlValidation3">ไม่ใช่/No</label>
+                      </div>
+                </div>
+                   
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+    
+    
+    <div class="container">
+
+<div class="box3">
+    <div class="row r4">
+        <p class="text11">ในช่วง14วันที่ผ่านมาคุณเดินทาง หรือ แวะผ่าน ในประเทศ*ใดๆ ด้านล่างหรือไม่ ? โปรดระบุ <br>
+            (During last 14 day have you travelled from or transited in any country* below? Please specify) </p>
+       
+            <div class="container-textyn3">
+                 <div class="form-check form-check-inline">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions6" id="customControlValidation2" value="option11" required>
+                        <label class="form-check-label" for="customControlValidation2">ใช่/Yes</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions6" id="customControlValidation2" value="option12" required >
+                        <label class="form-check-label" for="customControlValidation3">ไม่ใช่/No</label>
+                      </div>
+            </div>
+       
+            
+    </div>
+
+
+    <div class="row r4">
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">China/จีน</label>&nbsp;&nbsp;&nbsp;
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">Marcao/มาเก๊า</label>&nbsp;&nbsp;&nbsp;
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">Hong Kong/ฮ่องกง</label>
+        </div>
+
+    </div>
+    <div class="row r4">
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">South Korea/เกาหลีใต้</label>&nbsp;&nbsp;&nbsp;
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">Italy/อิตาลี</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">Iran/อิหร่าน</label>
+        </div>
+
+    </div>
+    <div class="row r5">
+        <br>
+        <p class="text11"><br>ในช่วง14วันที่ผ่านมาคุณสัมผัสหรือใกล้ชิดกับคนที่มาจากพื้นที่ที่ทีรายงานการระบาดต่อเนื่องของโรค
+            COVID-19<br>
+            หรือ มีประวัติใกล้ชิด หรือ สัมผัสกับผู้ป่วยเข้าข่าย หรือ ยืนยัน โรคติดเชื้อ COVID-19 หรือไม่ <br>
+            (During last 14 day have you chose contact those who come back from the area affected by the<br>
+            outbreaks of COVID-19 or history of close contact with a confirmed case of COVID-19 infection ?) </p>
+       
+       
+       <div class="container-textyn3">
+            <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions7" id="customControlValidation2" value="option12" required>
+                    <label class="form-check-label" for="customControlValidation2">ใช่/Yes</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions7" id="customControlValidation2" value="option14" required >
+                    <label class="form-check-label" for="customControlValidation3">ไม่ใช่/No</label>
+                  </div>
+        </div>
+        
+       </div>
+           
+    </div>
+</div>
+<p class="textlast">หมายเหตุ : รายชือประเทศอาจเปลี่ยนแปลงได้ตามประกาศหรือแนวทางการล่าสุดของกระทรวงสาธารณสุขหรือหน่วยงานราชการอื่น<br>
+(Note:List of the affected coubtries is subject to change follwing the updated notification and/or guidelines issued by the Minstry of public Health <bt>
+    and/or other govenment agencies.)</p>
+
+  
+
+        <div class="box4">
+      <button type="submit" class="btn submit">ส่งแบบฟอร์ม</button>
+</div>
+
+    </div>
+
+
+
+</form>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
